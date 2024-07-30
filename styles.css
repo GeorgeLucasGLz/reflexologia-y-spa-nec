@@ -125,7 +125,11 @@ nav img {
     padding: 10px;
     border-radius: 9px;
     text-transform: uppercase;
-    background-image: linear-gradient(to right bottom, #0f0087, #0628a2, #0045bc, #0060d4, #127ceb);
+    /* background-image: linear-gradient(to right bottom, #68c3b7, #46bda3, #24b789, #06af6b, #0aa647); */
+    background-image: linear-gradient(to right bottom, #845725, #a06828, #bd782b, #dc8a2e, #fb9b31);
+    background-image: linear-gradient(to right bottom, #a66822, #bb7426, #d08129, #e58e2d, #fb9b31);
+    background-image: linear-gradient(to bottom, #a66822, #bb7930, #d18b3d, #e79d4b, #fdaf59);
+    text-shadow: 2px 3px 7px black;
 }
 
 .info-hero button:hover {
@@ -311,7 +315,7 @@ nav ul li a:hover {
 
 .servicio img {
     cursor: pointer;
-    border: 2px solid rgb(0, 17, 255);
+    border: 3px solid pink;
     border-radius: 5px;
     object-fit: cover;
     width: 100%;
@@ -321,7 +325,7 @@ nav ul li a:hover {
 }
 
 .servicio img:hover {
-    border: 2px solid rgb(255, 230, 0);
+    border: 3px solid #bdecb6;
     transform: scale(1.03);
     transition: 0.3s ease-in-out;
 }
@@ -352,10 +356,10 @@ nav ul li a:hover {
 
 .map {
     width: 80%;
-    border-radius: 10px;
-    background-color: #0628a2;
+    border-radius: 20px;
+    background-color: pink;
     padding: 2px;
-    box-shadow: 0 0 10px #0d00c4;
+    box-shadow: 0 0 10px pink;
 }
 
 .consultorio-box {
@@ -471,7 +475,7 @@ footer a {
     }
 
     footer a {
-      font-size: 2.5vw;
+        font-size: 2.5vw;
     }
 }
 
